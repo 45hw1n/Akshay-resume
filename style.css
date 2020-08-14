@@ -88,8 +88,14 @@ nav{
   margin: auto;
 }
 
-
-
+.btn-download{
+  border: solid 1px white;
+  height: 50px;
+  margin: 10px;
+}
+.btn-primary:hover{
+  color: black;
+}
 .row {
   display: flex;
 }
@@ -107,7 +113,7 @@ nav{
     margin: 5px;
   }
 
-
+}
 
 @media only screen and (max-width:768px) {
   /* For mobile phones: */
@@ -154,4 +160,12 @@ nav{
     padding: 5px;
     margin: 0px;
   }
+  .link{
+    font-size:13px
 
+  }
+  a {
+    word-wrap: break-word;
+  }
+
+}
